@@ -32,7 +32,7 @@ stdin.on("data", (firstNumber) => {
     }
 
     console.log(
-      color.red(`The result of adding ${a} and ${b} is ${add(a, b)}\n`)
+      color.magenta(`The result of adding ${a} and ${b} is ${add(a, b)}\n`)
     );
     console.log(
       color.blue(
